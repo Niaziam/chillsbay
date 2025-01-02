@@ -46,22 +46,22 @@ const CarouselData = [
 const TagData = [
   {
     id: 1,
-    img: "Calendar.png",
+    img: "/Calendar.png",
     title: "Dec 12 2024",
   },
   {
     id: 2,
-    img: "Mark.png",
+    img: "/Mark.png",
     title: "TBS  Lagos",
   },
   {
     id: 3,
-    img: "Clock.png",
+    img: "/Clock.png",
     title: "9:00 PM",
   },
   {
     id: 4,
-    img: "Tag.png",
+    img: "/Tag.png",
     title: "N20,000",
   },
 ];

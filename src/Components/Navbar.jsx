@@ -41,11 +41,6 @@ const MyNavbar = ({ isDark }) => {
       maxWidth="2xl"
       className={themeColor(isDark)}
     >
-      <NavbarContent className="sm:hidden" justify="start">
-        <NavbarMenuToggle
-          aria-level={isMenuOpen ? "Close menu" : "Open menu"}
-        />
-      </NavbarContent>
 
       <NavbarContent className="sm:hidden pr-3">
         <NavbarBrand>
@@ -124,6 +119,12 @@ const MyNavbar = ({ isDark }) => {
             </button>
           </NavLink>
         </NavbarItem>
+      </NavbarContent>
+
+      <NavbarContent className="sm:hidden" justify="end">
+        <NavbarMenuToggle
+          aria-level={isMenuOpen ? "Close menu" : "Open menu"}
+        />
       </NavbarContent>
 
       <div className="lg:hidden">
